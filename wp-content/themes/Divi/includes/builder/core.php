@@ -2686,8 +2686,8 @@ if ( ! function_exists( 'et_builder_email_get_lists_field_data' ) ) :
 			);
 
 			if ( 'Signup' === $module_class ) {
-				$signup_field                 = new ET_Builder_Module_Signup_Item();
-				$fields_data['custom_fields'] = $signup_field->get_fields();
+				$signup_field                = new ET_Builder_Module_Signup_Item();
+				$field_data['custom_fields'] = $signup_field->get_fields();
 			}
 		}
 		// phpcs:enable
